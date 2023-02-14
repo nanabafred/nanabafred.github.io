@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Chapel St..kmz</name>
+	<StyleMap id="m_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Placemark>
+		<name>Chapel St.</name>
+		<description>this is thr shortes path from Bethany church to James-e-Mosque</description>
+		<styleUrl>#m_ylw-pushpin2</styleUrl>
+		<LineString>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>
+				-1.296399494029185,50.69730010879618,0 -1.296407709328585,50.69739823727954,0 -1.296430641522479,50.69751333282721,0 -1.296447571840457,50.69767172481497,0 -1.296455223607257,50.69780558812974,0 -1.296469665608252,50.69785986217086,0 -1.296400467741365,50.69786014112245,0 -1.296298408487607,50.69785978601526,0 -1.296183630221676,50.69786388195792,0 -1.29603919904092,50.69786332103236,0 -1.295886439835445,50.69786674407273,0 -1.295772003075097,50.69788235755161,0 -1.295739301051358,50.69789431995338,0 -1.295732223563023,50.69794914397747,0 -1.295728218893897,50.69801997042831,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
